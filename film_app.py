@@ -16,7 +16,7 @@ operation = st.radio("Select any you fancy:",
 
 
 def pick_film():
-    return film
+    return pick_film
 
 
 if st.button("Suggest a film"):
