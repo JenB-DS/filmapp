@@ -2,9 +2,7 @@ import streamlit as st
 
 st.set_page_config(
     page_title="What shall we watch tonight?",
-    page_icon=":vampire:",
-    primaryColor = "red",
-    backgroundColor = "black"
+    page_icon=":vampire:"
 )
 
 st.title("What shall we watch tonight?")
