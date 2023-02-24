@@ -14,7 +14,7 @@ st.write("What are you in the mood for?")
 operation = st.radio("Select any you fancy:",
                     ("Slasher", "Comedy",))
 
-operation1 = st.radio("An particular era:",
+operation1 = st.radio("Era:",
                     ("90s", "70s"))
 
 
