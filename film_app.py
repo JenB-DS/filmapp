@@ -12,7 +12,10 @@ st.write("---")
 st.write("What are you in the mood for?")
  
 operation = st.radio("Select any you fancy:",
-                    ("90s", "Slasher", "Comedy", "70s"))
+                    ("Slasher", "Comedy",))
+
+operation1 = st.radio("An particular era:",
+                    ("90s", "70s"))
 
 
 def pick_film():
