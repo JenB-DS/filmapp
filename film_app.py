@@ -61,12 +61,14 @@ def pick_film():
     elif operation_amount == "1":
         random_index = random.randint(0, len(film_list) - 1)
         st.success(f"Here we go... {film_list[random_index]}")
+        st.warning("Surprisingly, you don’t own a DVD that matches this criteria!")
 
     elif operation_amount == "3":
         random_index1 = random.randint(0, len(film_list) - 1)
         random_index2 = random.randint(0, len(film_list) - 1)
         random_index3 = random.randint(0, len(film_list) - 1)
         st.success(f"Here we go... {film_list[random_index1], film_list[random_index2], film_list[random_index3]}")
+        st.warning("Surprisingly, you don’t own a DVD that matches this criteria!")
 
 
 if st.button("Suggest something to watch"):
