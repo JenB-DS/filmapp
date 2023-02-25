@@ -56,10 +56,10 @@ def pick_film():
     if operation_amount == 1:
         st.success(f"Here we go... {film_list[0]}")
 
-    if operation_amount == 3:
+    elif operation_amount == 3:
         st.success(f"Here we go... {film_list[0:2]}")
 
-    if operation_amount == "Any":
+    elif operation_amount == "Any":
         st.success(f"Here we go... {film_list}")
 
 if st.button("Suggest something to watch"):
