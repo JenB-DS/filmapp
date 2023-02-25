@@ -11,13 +11,14 @@ st.write("---")
 
 st.write("What are you in the mood for?")
 
+
 operation_type = st.radio("Film or TV?", 
                           ("Film", "TV"))
  
-operation_genre = st.radio("Select any you fancy:",
+operation_genre = st.checkbox("Select any you fancy:",
                     ("Horror", "Comedy", "Action"))
 
-operation_genre = st.radio("Decade:",
+operation_genre = st.checkbox("Decade:",
                     ("1990s", "2000s", "2010s"))
 
 operation_amount = st.radio("How many suggestions:",
