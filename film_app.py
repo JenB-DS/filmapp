@@ -32,10 +32,9 @@ def pick_film():
     film_list = []
     for film in dvds:
         if operation_type == dvds("Category"):
-            pick_film.append[film("Title")]
-    return film_list
+            film_list.append[film("Title")]
+    st.success(f"Here we go... {film_list}")
 
 
 if st.button("Suggest something to watch"):
     pick_film()
-st.write(pick_film)
