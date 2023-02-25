@@ -36,11 +36,17 @@ def pick_film():
     reader = csv.reader(csv_file)
     film_list = []
     for row in reader:
+
+
         if operation_genre == "Any":
-            if row[3] == operation_dec:
-                film_list.append(row[0])
-        if row[1] == operation_type and row[2] == operation_genre and row[3] == operation_dec:
-            film_list.append(row[0])
+            if operation_dec == "Any":
+                if row[1] == operation_type:
+                    film_list.append(row[0])
+
+
+        # if row[1] == operation_type and row[2] == operation_genre and row[3] == operation_dec:
+        #     film_list.append(row[0])
+
 
     st.success(f"Here we go... {film_list}")
 
