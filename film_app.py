@@ -55,19 +55,20 @@ def pick_film():
         elif row[1] == operation_type and row[2] == operation_genre and row[3] == operation_dec:
             film_list.append(row[0])
 
+    if len(film_list) == 0:
+        st.error("Surprisingly, you don’t own a DVD that matches this criteria!")
+
     if operation_amount == "all":
         st.success(f"Here we go... {film_list}")
 
     elif operation_amount == "1":
         random_index = random.randint(0, len(film_list) - 1)
-        st.error("Surprisingly, you don’t own a DVD that matches this criteria!")
         st.success(f"Here we go... {film_list[random_index]}")
 
     elif operation_amount == "3":
         random_index1 = random.randint(0, len(film_list) - 1)
         random_index2 = random.randint(0, len(film_list) - 1)
         random_index3 = random.randint(0, len(film_list) - 1)
-        st.error("Surprisingly, you don’t own a DVD that matches this criteria!")
         st.success(f"Here we go... {film_list[random_index1], film_list[random_index2], film_list[random_index3]}")
 
 
