@@ -37,7 +37,6 @@ def pick_film():
     film_list = []
     for row in reader:
 
-
         if operation_genre == "Any":
             if operation_dec == "Any":
                 if row[1] == operation_type:
@@ -47,12 +46,21 @@ def pick_film():
             if row[1] == operation_type and row[2] == operation_genre:
                 film_list.append(row[0])
 
-        # if row[1] == operation_type and row[2] == operation_genre and row[3] == operation_dec:
-        #     film_list.append(row[0])
+        elif operation_genre == "Any":
+            if row[1] == operation_type and row[3] == operation_dec:
+                film_list.append(row[0])
 
+        elif row[1] == operation_type and row[2] == operation_genre and row[3] == operation_dec:
+            film_list.append(row[0])
 
-    st.success(f"Here we go... {film_list}")
+    if operation_amount == 1:
+        st.success(f"Here we go... {film_list[0]}")
 
+    if operation_amount == 3:
+        st.success(f"Here we go... {film_list[0:2]}")
+
+    if operation_amount == "Any":
+        st.success(f"Here we go... {film_list}")
 
 if st.button("Suggest something to watch"):
     pick_film()
