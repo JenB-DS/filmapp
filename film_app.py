@@ -1,4 +1,5 @@
 import streamlit as st
+import pandas as pd
 
 st.set_page_config(
     page_title="What shall we watch tonight?",
@@ -26,8 +27,15 @@ operation_amount = st.radio("How many suggestions:",
 
 
 def pick_film():
+    url = 'https://github.com/JenB-DS/filmapp/blob/06314ceab28256f408d40f2ebd027de6d0607020/dvd_collection.csv?raw=true'
+    dvds = pd.read_csv(url,index_col=0)
+    pick_film = []
+    for film in dvds:
+        if operation_type == operation_type:
+            pick_film.append[film]
     return pick_film
 
 
 if st.button("Suggest a film"):
     pick_film()
+
