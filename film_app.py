@@ -25,10 +25,10 @@ operation_genre = st.selectbox("Decade:",
 operation_amount = st.radio("How many suggestions:",
                     ("1", "3", "all"))
 
-uploaded_file = st.file_uploader('https://github.com/JenB-DS/filmapp/blob/1f6cfc242404d865db5b6105152874eadf4e0602/dvd_collection.csv')
+url = 'https://raw.githubusercontent.com/JenB-DS/filmapp/main/dvd_collection.csv'
 
 def pick_film():
-    with open(uploaded_file) as csvfile:
+    with open(url) as csvfile:
 
         csv_reader = csv.reader(csvfile)
         film_list = []
