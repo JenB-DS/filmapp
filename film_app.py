@@ -2,6 +2,7 @@ import streamlit as st
 import requests
 import io
 import csv
+import random
 
 st.set_page_config(
     page_title="What shall we watch tonight?",
@@ -32,6 +33,7 @@ response = requests.get(url)
 csv_data = response.content.decode("utf-8")
 csv_file = io.StringIO(csv_data)
 
+
 def pick_film():
     reader = csv.reader(csv_file)
     film_list = []
@@ -39,7 +41,7 @@ def pick_film():
 
         if operation_genre == "Any" and operation_dec == "Any":
             if row[1] == operation_type:
-                film_list.append(row[0][3])
+                film_list.append(row[0])
 
         elif operation_dec == "Any":
             if row[1] == operation_type and row[2] == operation_genre:
@@ -54,15 +56,19 @@ def pick_film():
 
 
 
+
     if operation_amount == "all":
         st.success(f"Here we go... {film_list}")
 
     elif operation_amount == "1":
-        st.success(f"Here we go... {film_list[0]}")
+        random_index = random.randint(0, len(film_list) - 1)
+        st.success(f"Here we go... {film_list[random_index]}")
 
     elif operation_amount == "3":
-        st.success(f"Here we go... {film_list[0:2]}")
-
+        random_index1 = random.randint(0, len(film_list) - 1)
+        random_index2 = random.randint(0, len(film_list) - 1)
+        random_index3 = random.randint(0, len(film_list) - 1)
+        st.success(f"Here we go... {film_list[random_index1][random_index2][random_index3]}")
 
 
 if st.button("Suggest something to watch"):
