@@ -31,7 +31,7 @@ def pick_film():
     dvds = pd.read_csv(url,index_col=0)
     film_list = []
     for film in dvds:
-        if operation_type == dvds("Category"):
+        if operation_type == dvds["Category"]:
             film_list.append[film("Title")]
     st.success(f"Here we go... {film_list}")
 
