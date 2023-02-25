@@ -21,7 +21,7 @@ operation_type = st.radio("Film or TV?",
 operation_genre = st.selectbox("Select the genre you fancy:",
                     ("Any", "Horror", "Comedy", "Action"))
 
-operation_genre = st.selectbox("Decade:",
+operation_dec = st.selectbox("Decade:",
                     ("Any", "1990s", "2000s", "2010s"))
 
 operation_amount = st.radio("How many suggestions:",
@@ -36,7 +36,7 @@ def pick_film():
     reader = csv.reader(csv_file)
     film_list = []
     for row in reader:
-        if row[1] == operation_type:
+        if row[1] == operation_type and row[2] == operation_genre and row[3] == operation_dec:
             film_list.append(row[0])
 
     st.success(f"Here we go... {film_list}")
