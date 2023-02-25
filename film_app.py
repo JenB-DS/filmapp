@@ -10,11 +10,17 @@ st.write("You can have any genre, as long as it's horror...")
 st.write("---")
 
 st.write("What are you in the mood for?")
+
+operation_type = st.radio("Film or TV?", 
+                          ("Film", "TV"))
  
-operation = st.radio("Select any you fancy:",
+operation_genre = st.radio("Select any you fancy:",
                     ("Horror", "Comedy", "Action"))
 
-operation1 = st.radio("How many suggestions:",
+operation_genre = st.radio("Decade:",
+                    ("1990s", "2000s", "2010s"))
+
+operation_amount = st.radio("How many suggestions:",
                     ("1", "3", "all"))
 
 
