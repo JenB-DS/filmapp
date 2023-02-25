@@ -15,11 +15,11 @@ st.write("What are you in the mood for?")
 operation_type = st.radio("Film or TV?", 
                           ("Film", "TV"))
  
-operation_genre = st.selectbox("Select any you fancy:",
-                    ("Horror", "Comedy", "Action"))
+operation_genre = st.selectbox("Select the genre you fancy:",
+                    ("Any", "Horror", "Comedy", "Action"))
 
 operation_genre = st.selectbox("Decade:",
-                    ("1990s", "2000s", "2010s"))
+                    ("Any", "1990s", "2000s", "2010s"))
 
 operation_amount = st.radio("How many suggestions:",
                     ("1", "3", "all"))
