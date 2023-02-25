@@ -38,4 +38,4 @@ def pick_film():
 
 if st.button("Suggest something to watch"):
     pick_film()
-
+st.write(pick_film)
