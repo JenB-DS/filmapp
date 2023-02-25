@@ -16,7 +16,7 @@ st.write("What are you in the mood for?")
 
 
 operation_type = st.radio("Film or TV?", 
-                          ("Film", "TV"))
+                          ("Film", "Television"))
  
 operation_genre = st.selectbox("Select the genre you fancy:",
                     ("Any", "Horror", "Comedy", "Action"))
@@ -43,6 +43,9 @@ def pick_film():
                 if row[1] == operation_type:
                     film_list.append(row[0])
 
+        elif operation_dec == "Any":
+            if row[1] == operation_type and row[2] == operation_genre:
+                film_list.append(row[0])
 
         # if row[1] == operation_type and row[2] == operation_genre and row[3] == operation_dec:
         #     film_list.append(row[0])
