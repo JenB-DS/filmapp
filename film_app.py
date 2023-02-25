@@ -32,10 +32,10 @@ url = 'https://raw.githubusercontent.com/JenB-DS/filmapp/main/dvd_collection.csv
 df = pd.read_csv(url)
 
 # Display the DataFrame in the Streamlit app
-st.write(df)
+#st.write(df)
 
 def pick_film():
-    with open(url) as csvfile:
+    with open(df) as csvfile:
 
         csv_reader = csv.reader(csvfile)
         film_list = []
