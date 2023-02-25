@@ -29,7 +29,7 @@ operation_amount = st.radio("How many suggestions:",
 
 url = 'https://raw.githubusercontent.com/JenB-DS/filmapp/main/dvd_collection.csv'
 response = requests.get(url)
-csv_data = response.content.decode("uft-8")
+csv_data = response.content.decode("utf-8")
 csv_file = io.StringIO(csv_data)
 
 def pick_film():
