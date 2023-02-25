@@ -1,5 +1,5 @@
 import streamlit as st
-import pandas as pd
+import csv
 
 st.set_page_config(
     page_title="What shall we watch tonight?",
@@ -27,12 +27,14 @@ operation_amount = st.radio("How many suggestions:",
 
 
 def pick_film():
-    url = 'https://github.com/JenB-DS/filmapp/blob/06314ceab28256f408d40f2ebd027de6d0607020/dvd_collection.csv?raw=true'
-    dvds = pd.read_csv(url,index_col=0)
-    film_list = []
-    for film in dvds:
-        if operation_type == dvds["Category"]:
-            film_list.append[film("Title")]
+    with open('https://github.com/JenB-DS/filmapp/blob/06314ceab28256f408d40f2ebd027de6d0607020/dvd_collection.csv?raw=true') as csvfile:
+
+        csv_reader = csv.reader(csvfile)
+        film_list = []
+        for row in csv_reader:
+            if row[1] == operation_type:
+                film_list.append(row[0])
+
     st.success(f"Here we go... {film_list}")
 
 
