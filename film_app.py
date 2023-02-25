@@ -27,7 +27,7 @@ operation_amount = st.radio("How many suggestions:",
 
 
 def pick_film():
-    with open('https://github.com/JenB-DS/filmapp/blob/06314ceab28256f408d40f2ebd027de6d0607020/dvd_collection.csv?raw=true') as csvfile:
+    with open('https://raw.githubusercontent.com/JenB-DS/filmapp/main/dvd_collection.csv') as csvfile:
 
         csv_reader = csv.reader(csvfile)
         film_list = []
