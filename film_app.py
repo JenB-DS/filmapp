@@ -1,5 +1,6 @@
 import streamlit as st
-import pandas as pd
+import requests
+import io
 import csv
 
 st.set_page_config(
@@ -27,21 +28,16 @@ operation_amount = st.radio("How many suggestions:",
                     ("1", "3", "all"))
 
 url = 'https://raw.githubusercontent.com/JenB-DS/filmapp/main/dvd_collection.csv'
-
-# Read the CSV file into a DataFrame
-#df = pd.read_csv(url)
-
-# Display the DataFrame in the Streamlit app
-#st.write(df)
+response = requests.get(url)
+csv_data = response.content.decode("uft-8")
+csv_file = io.StringIO(csv_data)
 
 def pick_film():
-    with open(url) as csvfile:
-
-        csv_reader = csv.reader(csvfile)
-        film_list = []
-        for row in csv_reader:
-            if row[1] == operation_type:
-                film_list.append(row[0])
+    reader = csv.reader(csv_file)
+    film_list = []
+    for row in reader:
+        if row[1] == operation_type:
+            film_list.append(row[0])
 
     st.success(f"Here we go... {film_list}")
 
