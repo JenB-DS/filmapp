@@ -58,12 +58,19 @@ def pick_film():
             elif row[1] == operation_type and row[2] == operation_genre and row[3] == operation_dec:
                 film_list.append(row[0])
 
+
+
+        success_msg = "Here we go...\n\n"
+        for each in film_list:
+            success_msg += "• " + each + "\n"
+
         if operation_amount == "all":
             st.success(f"Here we go... {film_list}")
 
         elif operation_amount == "1":
             random_index = random.randint(0, len(film_list) - 1)
-            st.success(f"Here we go... {film_list[random_index]}")
+            film_list = film_list[random_index]
+            st.success(success_msg)
 
         elif operation_amount == "3":
 
@@ -80,7 +87,7 @@ def pick_film():
 
     except ValueError:
         st.error("Surprisingly, you don’t own a DVD that matches this criteria!")
-        st.warning("Please try to resist buying a new DVD, and try the search again.")
+        st.error("Please try to resist buying a new DVD, and try the search again.")
 
 
 if st.button("Suggest something to watch"):
