@@ -64,6 +64,8 @@ def pick_film():
 
         if operation_amount == "all":
             st.success(f"Here we go... {film_list}")
+            for each in film_list:
+                st.write("• " + each)
 
         elif operation_amount == "1":
             random_index = random.randint(0, len(film_list) - 1)
