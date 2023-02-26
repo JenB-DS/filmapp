@@ -38,39 +38,43 @@ csv_file = io.StringIO(csv_data)
 def pick_film():
     reader = csv.reader(csv_file)
     film_list = []
-    for row in reader:
 
-        if operation_genre == "Any" and operation_dec == "Any":
-            if row[1] == operation_type:
+    try:
+        for row in reader:
+
+            if operation_genre == "Any" and operation_dec == "Any":
+                if row[1] == operation_type:
+                    film_list.append(row[0])
+
+            elif operation_dec == "Any":
+                if row[1] == operation_type and row[2] == operation_genre:
+                    film_list.append(row[0])
+
+            elif operation_genre == "Any":
+                if row[1] == operation_type and row[3] == operation_dec:
+                    film_list.append(row[0])
+
+            elif row[1] == operation_type and row[2] == operation_genre and row[3] == operation_dec:
                 film_list.append(row[0])
 
-        elif operation_dec == "Any":
-            if row[1] == operation_type and row[2] == operation_genre:
-                film_list.append(row[0])
+        # if len(film_list) == 0:
+        #     st.error("Surprisingly, you don’t own a DVD that matches this criteria!")
 
-        elif operation_genre == "Any":
-            if row[1] == operation_type and row[3] == operation_dec:
-                film_list.append(row[0])
+        if operation_amount == "all":
+            st.success(f"Here we go... {film_list}")
 
-        elif row[1] == operation_type and row[2] == operation_genre and row[3] == operation_dec:
-            film_list.append(row[0])
+        elif operation_amount == "1":
+            random_index = random.randint(0, len(film_list) - 1)
+            st.success(f"Here we go... {film_list[random_index]}")
 
-    if len(film_list) == 0:
-        st.error("Surprisingly, you don’t own a DVD that matches this criteria!")
+        elif operation_amount == "3":
+            random_index1 = random.randint(0, len(film_list) - 1)
+            random_index2 = random.randint(0, len(film_list) - 1)
+            random_index3 = random.randint(0, len(film_list) - 1)
+            st.success(f"Here we go... {film_list[random_index1], film_list[random_index2], film_list[random_index3]}")
 
-    if operation_amount == "all":
-        st.success(f"Here we go... {film_list}")
-
-    elif operation_amount == "1":
-        random_index = random.randint(0, len(film_list) - 1)
-        st.success(f"Here we go... {film_list[random_index]}")
-
-    elif operation_amount == "3":
-        random_index1 = random.randint(0, len(film_list) - 1)
-        random_index2 = random.randint(0, len(film_list) - 1)
-        random_index3 = random.randint(0, len(film_list) - 1)
-        st.success(f"Here we go... {film_list[random_index1], film_list[random_index2], film_list[random_index3]}")
-
+    except ValueError:
+        st.error("Surprisingly, you don’t own a DVD that matches this criteria! Please try again")
 
 
 if st.button("Suggest something to watch"):
