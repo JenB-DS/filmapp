@@ -60,9 +60,7 @@ def pick_film():
 
 
 
-        success_msg = "Here we go...\n\n"
-        for each in film_list:
-            success_msg += "• " + each + "\n"
+
 
         if operation_amount == "all":
             st.success(f"Here we go... {film_list}")
@@ -70,6 +68,10 @@ def pick_film():
         elif operation_amount == "1":
             random_index = random.randint(0, len(film_list) - 1)
             film_list = film_list[random_index]
+            success_msg = "Here we go...\n\n"
+            for each in film_list:
+                success_msg += "• " + each + "\n"
+
             st.success(success_msg)
 
         elif operation_amount == "3":
