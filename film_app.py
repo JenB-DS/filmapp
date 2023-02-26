@@ -34,7 +34,7 @@ response = requests.get(url)
 csv_data = response.content.decode("utf-8")
 csv_file = io.StringIO(csv_data)
 
-error_msg = "Surprisingly, you don’t own a DVD that matches this criteria! \nPlease try to resist buying a new DVD, and try the search again."
+error_msg = "Surprisingly, you don’t own a DVD that matches this criteria!\nPlease try to resist buying a new DVD, and try the search again."
 
 
 def pick_film():
