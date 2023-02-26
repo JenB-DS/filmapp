@@ -63,9 +63,11 @@ def pick_film():
 
 
         if operation_amount == "all":
-            st.success("Here we go...")
+            success_msg = "<b>Here we go...</b><br>"
             for each in film_list:
-                st.write("• " + each)
+                success_msg += "• " + each + "<br>"
+            st.success(success_msg)
+
 
         elif operation_amount == "1":
             random_index = random.randint(0, len(film_list) - 1)
