@@ -68,10 +68,17 @@ def pick_film():
             st.success(f"Here we go... {film_list[random_index]}")
 
         elif operation_amount == "3":
-            random_index1 = random.randint(0, len(film_list) - 1)
-            random_index2 = random.randint(0, len(film_list) - 1)
-            random_index3 = random.randint(0, len(film_list) - 1)
-            st.success(f"Here we go... {film_list[random_index1], film_list[random_index2], film_list[random_index3]}")
+
+            nums = []
+            while len(nums) < 3:
+                n = random.randint(0, len(film_list) - 1)
+                if n not in nums:
+                    nums.append(n)
+            else:
+                # Replace duplicate with a new random number
+                n = random.randint(0, len(film_list) - 1)
+
+            st.success(f"Here we go... {film_list[nums[0]], film_list[nums[1]], film_list[nums[2]]}")
 
     except ValueError:
         st.error("""Surprisingly, you don’t own a DVD that matches this criteria!
