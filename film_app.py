@@ -81,7 +81,7 @@ def pick_film():
             st.success(f"Here we go... {film_list[nums[0]], film_list[nums[1]], film_list[nums[2]]}")
 
     except ValueError:
-        st.error("Surprisingly, you don’t own a DVD that matches this criteria!\nPlease try the search again, and try to resist buying a new DVD.")
+        st.error("Surprisingly, you don’t own a DVD that matches this criteria!\nPlease try to resist buying a new DVD, and try the search again.")
 
 
 if st.button("Suggest something to watch"):
