@@ -29,9 +29,7 @@ operation_dec = st.selectbox("Decade:",
 operation_amount = st.radio("How many suggestions:",
                             ("1", "3", "all"))
 
-url = """
-https://raw.githubusercontent.com/JenB-DS/filmapp/main/dvd_collection.csv
-"""
+url = "https://raw.githubusercontent.com/JenB-DS/filmapp/main/dvd_collection.csv"
 response = requests.get(url)
 csv_data = response.content.decode("utf-8")
 csv_file = io.StringIO(csv_data)
