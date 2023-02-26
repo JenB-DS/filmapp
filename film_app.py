@@ -85,7 +85,7 @@ def pick_film():
 
             shortlist = [film_list[nums[0]], film_list[nums[1]], film_list[nums[2]]]
 
-            st.success(f"Here we go...")
+            st.success(f"Here's a shortlist...")
             for each in shortlist:
                 st.write("• " + each)
 
