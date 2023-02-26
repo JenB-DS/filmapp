@@ -63,10 +63,7 @@ def pick_film():
 
 
         if operation_amount == "all":
-            success_msg = "<b>Here we go...</b><br>"
-            for each in film_list:
-                success_msg += "• " + each + "<br>"
-            st.success(success_msg)
+            st.success(f"Here we go...{film_list}")
 
 
         elif operation_amount == "1":
