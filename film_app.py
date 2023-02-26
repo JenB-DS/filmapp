@@ -83,7 +83,11 @@ def pick_film():
                 # Replace duplicate with a new random number
                 n = random.randint(0, len(film_list) - 1)
 
-            st.success(f"Here we go... {film_list[nums[0]], film_list[nums[1]], film_list[nums[2]]}")
+            shortlist = [film_list[nums[0]], film_list[nums[1]], film_list[nums[2]]]
+
+            st.success(f"Here we go...")
+            for each in shortlist:
+                st.write("• " + each)
 
     except ValueError:
         st.error("Surprisingly, you don’t own a DVD that matches this criteria!")
