@@ -16,7 +16,7 @@ st.write("---")
 st.write("What are you in the mood for?")
 
 
-operation_type = st.radio("Film or TV?", 
+operation_type = st.radio("Film or TV series?", 
                           ("Film", "Television"))
  
 operation_genre = st.selectbox("Select the genre you fancy:",
@@ -58,9 +58,6 @@ def pick_film():
 
             elif row[1] == operation_type and row[2] == operation_genre and row[3] == operation_dec:
                 film_list.append(row[0])
-
-        # if len(film_list) == 0:
-        #     st.error("Surprisingly, you don’t own a DVD that matches this criteria!")
 
         if operation_amount == "all":
             st.success(f"Here we go... {film_list}")
