@@ -45,7 +45,7 @@ def pick_film():
 
             if operation_genre == "Any" and operation_dec == "Any":
                 if row[1] == operation_type:
-                    film_list.append(row[0])
+                    film_list.append(row[0] + " (" + row[3] + ")")
 
             elif operation_dec == "Any":
                 if row[1] == operation_type and row[2] == operation_genre:
