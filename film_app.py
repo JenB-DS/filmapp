@@ -60,6 +60,7 @@ def pick_film():
 
         if operation_amount == "all":
             st.success("Here we go...")
+            random.shuffle(film_list)
             for each in film_list:
                 st.write("• " + each)
 
