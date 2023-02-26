@@ -74,7 +74,7 @@ def pick_film():
             st.success(f"Here we go... {film_list[random_index1], film_list[random_index2], film_list[random_index3]}")
 
     except ValueError:
-        st.error("""Surprisingly, you don’t own a DVD that matches this criteria!\n 
+        st.error("""Surprisingly, you don’t own a DVD that matches this criteria!
         Please try the search again, and try to resist buying a new DVD.""")
 
 
