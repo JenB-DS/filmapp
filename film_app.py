@@ -63,7 +63,7 @@ def pick_film():
 
 
         if operation_amount == "all":
-            st.success(f"Here we go... {film_list}")
+            st.success("Here we go...")
             for each in film_list:
                 st.write("• " + each)
 
