@@ -9,8 +9,7 @@ st.sidebar.markdown("# Add a DVD")
 st.write("Add a DVD to database")
 st.write("---")
 
-url = "https://raw.githubusercontent.com/JenB-DS/filmapp/main/dvd_collection.csv"
-df = pd.read_csv(url)
+
 
 new_entry = {}
 new_entry["Title"] = st.text_input("Title: ")
@@ -25,6 +24,8 @@ new_entry["Decade"] = st.selectbox("Decade:",
                              ("2020s", "2010s", "2000s" "1990s", "1980s", "1970s", "1960s", "1950s", "1940s", "1930s", "Not sure"))
 
 def add_dvd():
+    url = "https://raw.githubusercontent.com/JenB-DS/filmapp/main/dvd_collection.csv"
+    df = pd.read_csv(url)
     df = df.append(new_entry, ignore_index=True)
     df.to_csv('dvd_collection.csv', index=False)
     repo = Repo('https://raw.githubusercontent.com/JenB-DS/filmapp/main/')
