@@ -11,10 +11,10 @@ st.set_page_config(
     page_icon=":vampire:"
 )
 
-#st.markdown("# What shall we watch tonight?")
+st.markdown("# What shall we watch tonight?")
 st.sidebar.markdown("# What shall we watch tonight?")
 
-st.title("What shall we watch tonight?")
+#st.title("What shall we watch tonight?")
 st.write("You can have any genre, as long as it's horror...")
 st.write("---")
 
