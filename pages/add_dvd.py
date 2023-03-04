@@ -4,11 +4,11 @@ import csv
 
 
 
-st.markdown("# This page is under construction.  Attempts to add a DVD, will just be shouting into the void")
+st.markdown("# This page is under construction")
 st.sidebar.markdown("# Add a DVD")
 
 
-st.write("Add a DVD to database")
+st.write("Attempts to add a DVD, will just be shouting into the void")
 st.write("---")
 
 
