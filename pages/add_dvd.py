@@ -15,13 +15,13 @@ st.write("---")
 Title = st.text_input("Title: ")
 
 Type = st.radio("Film or TV series?",
-                          ("Film", "Television"), index=None)
+                          ("Film", "Television"), index=-1)
 
 Genre = st.selectbox("Genre:",
-                               ("Comedy", "Family", "Horror", "Sci-Fi", "Western"), index=None)
+                               ("Comedy", "Family", "Horror", "Sci-Fi", "Western"), index=-1)
 
 Decade = st.selectbox("Decade:",
-                             ("2020s", "2010s", "2000s" "1990s", "1980s", "1970s", "1960s", "1950s", "1940s", "1930s", "Not sure"), index=None)
+                             ("2020s", "2010s", "2000s" "1990s", "1980s", "1970s", "1960s", "1950s", "1940s", "1930s", "Not sure"), index=-1)
 
 if st.button('Add DVD'):
     # Write the user-submitted data to a CSV file
