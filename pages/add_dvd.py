@@ -2,6 +2,13 @@ import streamlit as st
 import pandas as pd
 from git import Repo
 
+
+email = "burton.cheshire@gmail.com"
+username = "JenB-DS"
+
+Repo().git.config("--global", "user.email", email)
+Repo().git.config("--global", "user.name", username)
+
 st.markdown("# Add a DVD")
 st.sidebar.markdown("# Add a DVD")
 
