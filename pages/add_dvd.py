@@ -1,11 +1,10 @@
 import streamlit as st
-import pandas as pd
 import csv
 
 
 
 
-st.markdown("# Add a DVD")
+st.markdown("# This page is under construction.  Attempts to add a DVD, will just be shouting into the void")
 st.sidebar.markdown("# Add a DVD")
 
 
