@@ -28,7 +28,7 @@ def add_dvd():
     df = pd.read_csv(url)
     df = df.append(new_entry, ignore_index=True)
     df.to_csv('dvd_collection.csv', index=False)
-    repo = Repo('https://github.com/JenB-DS/filmapp')
+    repo = Repo('/JenB-DS/filmapp')
     repo.git.add('dvd_collection.csv')
     repo.git.commit('-m', 'Update data.csv')
     repo.git.push()
