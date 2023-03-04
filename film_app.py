@@ -11,7 +11,7 @@ st.set_page_config(
     page_icon=":vampire:"
 )
 
-st.markdown("# What shall we watch tonight?")
+#st.markdown("# What shall we watch tonight?")
 st.sidebar.markdown("# What shall we watch tonight?")
 
 st.title("What shall we watch tonight?")
