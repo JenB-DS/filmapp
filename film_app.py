@@ -6,6 +6,9 @@ import io
 import csv
 import random
 
+st.markdown("# What shall we watch tonight?")
+st.sidebar.markdown("# What shall we watch tonight?")
+
 st.set_page_config(
     page_title="What shall we watch tonight?",
     page_icon=":vampire:"
