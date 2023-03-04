@@ -28,7 +28,7 @@ def add_dvd():
     df = pd.read_csv(url)
     df = df.append(new_entry, ignore_index=True)
     df.to_csv('dvd_collection.csv', index=False)
-    repo = Repo('C:\Users\burto\OneDrive\Documents\2_Personal\Projects\Films\streamlit_film')
+    repo = Repo('C:\\Users\\burto\\OneDrive\\Documents\\2_Personal\\Projects\\Films\\streamlit_film')
     repo.git.add('dvd_collection.csv')
     repo.git.commit('-m', 'Update data.csv')
     repo.git.push()
