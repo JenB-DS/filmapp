@@ -28,8 +28,7 @@ operation_genre = st.selectbox("Select the genre you fancy:",
                                ("Any", "Comedy", "Family", "Horror", "Sci-Fi", "Western"))
 
 operation_dec = st.selectbox("Decade:",
-                             ("Any", "1930s", "1940s", "1950s", "1960s", "1970s",
-                             "1980s", "1990s", "2000s", "2010s", "2020s"))
+                             ("Any", "2020s", "2010s", "2000s" "1990s", "1980s", "1970s", "1960s", "1950s", "1940s", "1930s"))
 
 operation_amount = st.radio("How many suggestions:",
                             ("1", "3", "all"))
