@@ -1,145 +1,164 @@
-﻿Title,Type,Genre,Decade,
-A Fistful of Dollars,Film,Western,1960s,
-Hang 'Em High,Film,Western,1960s,
-"The Good, The Bad And The Ugly",Film,Western,1960s,
-For A Few More Dollars,Film,Western,1960s,
-The Evil Dead,Film,Horror,1980s,
-Elf,Film,Christmas,2000s,
-Easy Rider,Film,,1960s,Adventure
-Dredd,Film,Sci-Fi,2010s,
-Josie And The Pussycats,Film,Comedy,2000s,
-Hellraiser,Film,Horror,1980s,
-Hellbound Hellraiser II,Film,Horror,1980s,
-Hellraiser III Hell On Earth,Film,Horror,1990s,
-Goosebumps,Film,Family,2010s,
-Halloween Kills,Film,Horror,2020s,
-Halloween H20,Film,Horror,1990s,
-Halloween III Season Of The Witch,Film,Horror,1980s,
-Halloween,Film,Horror,1970s,
-Grease,Film,,1970s,Musical
-The Graduate,Film,,1960s,Something Else
-Frozen,Film,Family,2010s,
-House Of Wax,Film,Horror,2000s,
-Ghost Ship,Film,Horror,2000s,
-Friday 13th,Film,Horror,1970s,
-Freaks,Film,Horror,1930s,
-Frankenhooker,Film,Horror,1990s,
-The Fly,Film,Horror,1980s,
-Flash Gordon,Film,Sci-Fi,1980s,
-The Faculty,Film,Horror,1990s,
-Dogma,Film,Comedy,1990s,
-Dead Man's Curve,Film,Horror,1990s,
-Critters,Film,Horror,1980s,
-Critters 2,Film,Horror,1980s,
-Critters 3,Film,Horror,1990s,
-Critters 4,Film,Horror,1990s,
-Christine,Film,Horror,1980s,
-Cherry Falls,Film,Horror,1990s,
-Chasing Amy,Film,Comedy,1990s,
-Bring It On,Film,Comedy,2000s,
-Breaking The Waves,Film,,1990s,Something Else
-3:10 To Yuma,Film,Western,2000s,
-Bride Of Chucky,Film,Horror,1990s,
-Brain Damage,Film,Horror,1980s,
-Book Of Shadows: Blair Witch 2,Film,Horror,2000s,
-Blair Witch Project,Film,Horror,1990s,
-Blade Runner,Film,Sci-Fi,1980s,
-Basket Case,Film,Horror,1980s,
-(500) Days Of Summer,Film,Comedy,2000s,
-American Psycho,Film,Comedy,2000s,
-Back To The Future,Film,,1980s,Action
-Batman Begins,Film,,2000s,Action
-The Dark Knight,Film,,2000s,Action
-The Banana Splits Movie,Film,Horror,2010s,
-The Dark Knight Rises,Film,,2010s,Action
-Seven,Film,,1990s,Something Else
-Scream 3,Film,Horror,2000s,
-Scream 5,Film,Horror,2020s,
-Scream,Film,Horror,1990s,
-Scream 2,Film,Horror,1990s,
-Scooby-Doo Zombie Island,Film,Family,1990s,
-The Royal Tenenbaums,Film,Comedy,2000s,
-Out Of Time,Film,,2000s,Something Else
-Monsters Inc.,Film,Family,2000s,
-Pan's Labyrinth,Film,,2000s,
-The People Under The Stairs,Film,Horror,1990s,
-Prom Night,Film,Horror,2000s,
-Repo Man,Film,Sci-Fi,1980s,
-The Rocky Horror Picture Show,Film,,1970s,Something Else
-Monsters University,Film,Family,2010s,
-The Muppets,Film,Family,2010s,
-A Nightmare On Elm Street,Film,Horror,1980s,
-A Nightmare On Elm Street 2: Freddy's Revenge,Film,Horror,1980s,
-A Nightmare On Elm Street 3: Dream Warriors,Film,Horror,1980s,
-A Nightmare On Elm Street 4: The Dream Master,Film,Horror,1980s,
-A Nightmare On Elm Street 5: The Dream Child,Film,Horror,1980s,
-A Nightmare On Elm Street 6: Freddy's Dead,Film,Horror,1990s,
-Wes Craven's New Nightmare,Film,Horror,1990s,
-The New Mutants,Film,Horror,2020s,
-Once Upon A Time In Mexico,Film,,2000s,Something Else
-I'm Still Waiting For You,Film,Horror,1990s,
-Midnight In Paris,Film,Comedy,2010s,
-The Ides Of March,Film,,2010s,Something Else
-Lost Highway,Film,Horror,1990S,
-The Lego Movie,Film,Family,2010s,
-The Last House On The Left,Film,Horror,1970s,
-Labyrinth,Film,Family,1980s,
-"I Love You, Man",Film,Comedy,2000s,
-The Independent,Film,Comedy,2000s,
-Lost In Translation,Film,,2000s,Something Else
-The Matrix,Film,Sci-Fi,1990s,
-I Still Know What You Did Last Summer,Film,Horror,1990s,
-I Know What You Did Last Summer,Film,Horror,1990s,
-The Hills Have Eyes,Film,Horror,1970s,
-Hey Arnold! The Jungle Movie,Film,Family,2010s,
-Hey Arnold! The Movie,Film,Family,2000s,
-Indiana Jones And The Temple Of Doom,Film,,1980s,Action
-Indiana Jones And The Raiders Of The Lost Ark,Film,,1980s,Action
-Indiana Jones And The Last Crusade,Film,,1980s,Action
-Interstellar,Film,Sci-Fi,2010s,
-The Iron Giant,Film,Family,1990s,
-Jason Goes To Hell: The Final Friday,Film,Horror,1990s,
-Jason X,Film,Horror,2000s,
-Jobs,Film,,2010s,Something Else
-True Romance,Film,,1990s,Something Else
-Twin Peaks: Fire Walk With Me,Film,Horror,1990s,
-Urban Legend ,Film,Horror,1990s,
-Valentine,Film,Horror,2000s,
-Vanishing Point,Film,,1970s,Something Else
-The Warriors,Film,,1970s,Something Else
-Wayne's World,Film,Comedy,1990s,
-War Of The Worlds,Film,Sci-Fi,2000s,
-Tommy Boy,Film,Comedy,1990s,
-The Terminator,Film,Sci-Fi,1980s,
-The Texas Chain Saw Massacre,Film,Horror,1970s,
-Thank You For Smoking,Film,Comedy,2000s,
-Thelma & Louise,Film,,1990s,Something Else
-They Live,Film,Sci-Fi,1980s,
-Tinker Tailor Soldier Spy ,Film,,2010s,Something Else
-The Shining,Film,Horror,1980s,
-Slumber Party Massacre,Film,Horror,2020s,
-The Social Network ,Film,,2010s,Something Else
-Starship Troopers,Film,Sci-Fi,1990s,
-Starship Troopers 2: Hero Of The Federation,Film,Sci-Fi,2000s,
-Starship Troopers 3: Marauder,Film,Sci-Fi,2000s,
-Spider-Man Into The Spider-Verse,Film,Family,2010s,
-Strings,Film,,2000s,Something Else
-Ted,Film,Comedy,2010s,
-Hey Arnold!,Television,Family,2010s,
-How The Grinch Stole Christmas,Film,Christmas,1960s,
-Nature Of The Beast,Film,,2010s,Documentary 
-No Direction Home,Film,,2000s,Documentary 
-Paeanuts 1960s Collection,Television,Family,1960s,
-The White Stripes: Under Blackpool Lights,Live Music,Music,2000s,
-Yeah Yeah Yeah: Tell Me What Rockers To Swallow,Live Music,Music,2000s,
-I Am Chris Farley,Film,,2020s,Documentary 
-Saturday Night Live: The Best Of Chris Farley,Television,Comedy,1990s,
-Art Brut: Talking To The Kids,Live Music,Music,2000s,
-Dig!,Film,,2000s,Documentary 
-The End,Film,,2000s,Something Else
-The Whole Nine Yards,Film,Comedy,2000s,
-Withnail and I ,Film,Comedy,1980s,
-The Wizard Of Oz,Film,Family,1930s,
-Saturday Night Live: The Best Of Dan Aykroyd,Television,Comedy,1970s,
-Eddie Murphy: Raw,Television,Comedy,1980s,
-Amy Winehouse: I Told You I Was Trouble,Live Music,Music,2000s,
+﻿Title,Type,Genre,Decade
+Back To The Future,Film,Action,1980s
+Batman Begins,Film,Action,2000s
+The Dark Knight,Film,Action,2000s
+The Dark Knight Rises,Film,Action,2010s
+Indiana Jones And The Temple Of Doom,Film,Action,1980s
+Indiana Jones And The Raiders Of The Lost Ark,Film,Action,1980s
+Indiana Jones And The Last Crusade,Film,Action,1980s
+Elf,Film,Christmas,2000s
+How The Grinch Stole Christmas,Film,Christmas,1960s
+Josie And The Pussycats,Film,Comedy,2000s
+Dogma,Film,Comedy,1990s
+Chasing Amy,Film,Comedy,1990s
+Bring It On,Film,Comedy,2000s
+(500) Days Of Summer,Film,Comedy,2000s
+American Psycho,Film,Comedy,2000s
+The Royal Tenenbaums,Film,Comedy,2000s
+Midnight In Paris,Film,Comedy,2010s
+"I Love You, Man",Film,Comedy,2000s
+The Independent,Film,Comedy,2000s
+Wayne's World,Film,Comedy,1990s
+Tommy Boy,Film,Comedy,1990s
+Thank You For Smoking,Film,Comedy,2000s
+Ted,Film,Comedy,2010s
+Saturday Night Live: The Best Of Chris Farley,Television,Comedy,1990s
+The Whole Nine Yards,Film,Comedy,2000s
+Withnail and I ,Film,Comedy,1980s
+Saturday Night Live: The Best Of Dan Aykroyd,Television,Comedy,1970s
+Eddie Murphy: Raw,Television,Comedy,1980s
+Friends,Television,Comedy,1990s
+The Office,Television,Comedy,2000s
+Third Rock From The Sun,Television,Comedy,1990s
+King Of Queens,Television,Comedy,1990s
+Vicar Of Dibley,Television,Comedy,1990s
+Gavin And Stacey,Television,Comedy,2000s
+Alan Partridge,Television,Comedy,1990s
+League Of Gentlemen,Television,Comedy,2000s
+Hitchhikers Guide To The Galaxy,Television,Comedy,1980s
+Flight Of The Conchords,Television,Comedy,2000s
+Girls,Television,Comedy,2010s
+Car Share,Television,Comedy,2010s
+Nature Of The Beast,Film,Documentary ,2010s
+No Direction Home,Film,Documentary ,2000s
+I Am Chris Farley,Film,Documentary ,2020s
+Dig!,Film,Documentary ,2000s
+Goosebumps,Film,Family,2010s
+Frozen,Film,Family,2010s
+Scooby-Doo Zombie Island,Film,Family,1990s
+Monsters Inc.,Film,Family,2000s
+Monsters University,Film,Family,2010s
+The Muppets,Film,Family,2010s
+The Lego Movie,Film,Family,2010s
+Labyrinth,Film,Family,1980s
+Hey Arnold! The Jungle Movie,Film,Family,2010s
+Hey Arnold! The Movie,Film,Family,2000s
+The Iron Giant,Film,Family,1990s
+Spider-Man Into The Spider-Verse,Film,Family,2010s
+Hey Arnold!,Television,Family,2010s
+Paeanuts 1960s Collection,Television,Family,1960s
+The Wizard Of Oz,Film,Family,1930s
+Goosebumps,Television,Family,1990s
+Pan's Labyrinth,Film,Fantasy,2000s
+The Evil Dead,Film,Horror,1980s
+Hellraiser,Film,Horror,1980s
+Hellbound Hellraiser II,Film,Horror,1980s
+Hellraiser III Hell On Earth,Film,Horror,1990s
+Halloween Kills,Film,Horror,2020s
+Halloween H20,Film,Horror,1990s
+Halloween III Season Of The Witch,Film,Horror,1980s
+Halloween,Film,Horror,1970s
+House Of Wax,Film,Horror,2000s
+Ghost Ship,Film,Horror,2000s
+Friday 13th,Film,Horror,1970s
+Freaks,Film,Horror,1930s
+Frankenhooker,Film,Horror,1990s
+The Fly,Film,Horror,1980s
+The Faculty,Film,Horror,1990s
+Dead Man's Curve,Film,Horror,1990s
+Critters,Film,Horror,1980s
+Critters 2,Film,Horror,1980s
+Critters 3,Film,Horror,1990s
+Critters 4,Film,Horror,1990s
+Christine,Film,Horror,1980s
+Cherry Falls,Film,Horror,1990s
+Bride Of Chucky,Film,Horror,1990s
+Brain Damage,Film,Horror,1980s
+Book Of Shadows: Blair Witch 2,Film,Horror,2000s
+Blair Witch Project,Film,Horror,1990s
+Basket Case,Film,Horror,1980s
+The Banana Splits Movie,Film,Horror,2010s
+Scream 3,Film,Horror,2000s
+Scream 5,Film,Horror,2020s
+Scream,Film,Horror,1990s
+Scream 2,Film,Horror,1990s
+The People Under The Stairs,Film,Horror,1990s
+Prom Night,Film,Horror,2000s
+A Nightmare On Elm Street,Film,Horror,1980s
+A Nightmare On Elm Street 2: Freddy's Revenge,Film,Horror,1980s
+A Nightmare On Elm Street 3: Dream Warriors,Film,Horror,1980s
+A Nightmare On Elm Street 4: The Dream Master,Film,Horror,1980s
+A Nightmare On Elm Street 5: The Dream Child,Film,Horror,1980s
+A Nightmare On Elm Street 6: Freddy's Dead,Film,Horror,1990s
+Wes Craven's New Nightmare,Film,Horror,1990s
+The New Mutants,Film,Horror,2020s
+I'm Still Waiting For You,Film,Horror,1990s
+Lost Highway,Film,Horror,1990S
+The Last House On The Left,Film,Horror,1970s
+I Still Know What You Did Last Summer,Film,Horror,1990s
+I Know What You Did Last Summer,Film,Horror,1990s
+The Hills Have Eyes,Film,Horror,1970s
+Jason Goes To Hell: The Final Friday,Film,Horror,1990s
+Jason X,Film,Horror,2000s
+Twin Peaks: Fire Walk With Me,Film,Horror,1990s
+Urban Legend ,Film,Horror,1990s
+Valentine,Film,Horror,2000s
+The Texas Chain Saw Massacre,Film,Horror,1970s
+The Shining,Film,Horror,1980s
+Slumber Party Massacre,Film,Horror,2020s
+Scream 4,Film,Horror,2010s
+The White Stripes: Under Blackpool Lights,Live Music,Music,2000s
+Yeah Yeah Yeah: Tell Me What Rockers To Swallow,Live Music,Music,2000s
+Art Brut: Talking To The Kids,Live Music,Music,2000s
+Amy Winehouse: I Told You I Was Trouble,Live Music,Music,2000s
+Grease,Film,Musical,1970s
+Dredd,Film,Sci-Fi,2010s
+Flash Gordon,Film,Sci-Fi,1980s
+Blade Runner,Film,Sci-Fi,1980s
+Repo Man,Film,Sci-Fi,1980s
+The Matrix,Film,Sci-Fi,1990s
+Interstellar,Film,Sci-Fi,2010s
+War Of The Worlds,Film,Sci-Fi,2000s
+The Terminator,Film,Sci-Fi,1980s
+They Live,Film,Sci-Fi,1980s
+Starship Troopers,Film,Sci-Fi,1990s
+Starship Troopers 2: Hero Of The Federation,Film,Sci-Fi,2000s
+Starship Troopers 3: Marauder,Film,Sci-Fi,2000s
+Twin Peaks,Television,Sci-Fi,1990s
+Superman,Television,Sci-Fi,1950s
+Easy Rider,Film,Something Else,1960s
+The Graduate,Film,Something Else,1960s
+Breaking The Waves,Film,Something Else,1990s
+Seven,Film,Something Else,1990s
+Out Of Time,Film,Something Else,2000s
+The Rocky Horror Picture Show,Film,Something Else,1970s
+Once Upon A Time In Mexico,Film,Something Else,2000s
+The Ides Of March,Film,Something Else,2010s
+Lost In Translation,Film,Something Else,2000s
+Jobs,Film,Something Else,2010s
+True Romance,Film,Something Else,1990s
+Vanishing Point,Film,Something Else,1970s
+The Warriors,Film,Something Else,1970s
+Thelma & Louise,Film,Something Else,1990s
+Tinker Tailor Soldier Spy ,Film,Something Else,2010s
+The Social Network ,Film,Something Else,2010s
+Strings,Film,Fantasy,2000s
+The End,Film,Something Else,2000s
+Mad Men,Television,Something Else,2010s
+Beverly Hills 90210,Television,Something Else,1990s
+"Murder, She Wrote",Television,Something Else,1990s
+A Fistful of Dollars,Film,Western,1960s
+Hang 'Em High,Film,Western,1960s
+"The Good, The Bad And The Ugly",Film,Western,1960s
+For A Few More Dollars,Film,Western,1960s
+3:10 To Yuma,Film,Western,2000s
