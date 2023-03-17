@@ -25,10 +25,10 @@ operation_type = st.radio("Film or TV series?",
                           ("Film", "Television"))
 
 operation_genre = st.selectbox("Select the genre you fancy:",
-                               ("Any", "Comedy", "Family", "Horror", "Sci-Fi", "Western"))
+                               ("Any", "Action", "Christmas", "Comedy", "Documentary", "Family", "Fantasy", "Horror", "Music", "Musical", "Sci-Fi", "Western", "Something Else"))
 
 operation_dec = st.selectbox("Decade:",
-                             ("Any", "2020s", "2010s", "2000s" "1990s", "1980s", "1970s", "1960s", "1950s", "1940s", "1930s"))
+                             ("Any", "2020s", "2010s", "2000s", "1990s", "1980s", "1970s", "1960s", "1950s", "1940s", "1930s"))
 
 operation_amount = st.radio("How many suggestions:",
                             ("1", "3", "all"))
