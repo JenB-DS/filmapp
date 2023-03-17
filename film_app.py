@@ -1,5 +1,4 @@
 """What shall we watch tonight?"""
-"""Updating code for app"""
 
 import streamlit as st
 import requests

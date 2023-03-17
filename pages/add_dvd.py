@@ -1,9 +1,6 @@
 import streamlit as st
 import csv
 
-
-
-
 st.markdown("# This page is under construction")
 st.sidebar.markdown("# Add a DVD")
 
