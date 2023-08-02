@@ -12,7 +12,6 @@ csv_file = io.StringIO(csv_data)
 reader = csv.reader(csv_file)
 film_list = []
 
-
 for row in reader:
     if row[1] == "Film" and row[2] == "Horror":
         film_list.append(row[0])
@@ -34,9 +33,9 @@ total_votes = 0
 
 # Streamlit app
 def main():
-    global total_votes
+    global total_votes, shortlist  # Add the 'global shortlist' statement
     st.title('Voting App')
-    
+
     # Display voting options and buttons
     st.subheader('Vote for your favorite option:')
     for option in votes.keys():
