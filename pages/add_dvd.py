@@ -11,8 +11,8 @@ st.write("---")
 
 Title = st.text_input("Title: ")
 
-Type = st.radio("Film or TV series?",
-                          ("Please select", "Film", "Television"))
+Type = st.radio("Film, TV series or live music?",
+                          ("Please select", "Film", "Television", "Live Music"))
 
 Genre = st.selectbox("Genre:",
                                ("Please select", "Comedy", "Family", "Horror", "Sci-Fi", "Western"))
