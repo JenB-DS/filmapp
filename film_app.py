@@ -94,6 +94,5 @@ def pick_film():
         st.error("Surprisingly, you don’t own a DVD that matches this criteria!")
         st.error("Please try to resist buying a new DVD, and try the search again.")
 
-
 if st.button("Suggest something to watch"):
     pick_film()
