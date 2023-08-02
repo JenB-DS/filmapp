@@ -22,7 +22,7 @@ st.write("What are you in the mood for?")
 
 
 operation_type = st.radio("Film, TV series or live music?",
-                          ("Film", "Television", "Live music"))
+                          ("Film", "Television", "Live Music"))
 
 operation_genre = st.selectbox("Select the genre you fancy:",
                                ("Any", "Action", "Christmas", "Comedy", "Documentary", "Family", "Fantasy", "Horror", "Music", "Musical", "Sci-Fi", "Western", "Something Else"))
