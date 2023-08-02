@@ -26,7 +26,7 @@ while len(nums) < 3:
         # Replace duplicate with a new random number
         n = random.randint(0, len(film_list) - 1)
 
-        shortlist = [film_list[nums[0]], film_list[nums[1]], film_list[nums[2]]]
+shortlist = [film_list[nums[0]], film_list[nums[1]], film_list[nums[2]]]
 
 # Backend storage (you can replace this with a database)
 votes = {shortlist[0]: 0, shortlist[1]: 0, shortlist[2]: 0}
